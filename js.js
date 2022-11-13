@@ -6,5 +6,15 @@ for(item of accord){
     })
 }
 
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    autoplay: true,
+    delay: 3000,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
 // services
 
